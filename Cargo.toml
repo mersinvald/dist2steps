@@ -1,0 +1,6 @@
+[package]
+name = "dist2steps"
+version = "0.1.0"
+authors = ["Mile <lubinetsm@yandex.ru>"]
+
+[dependencies]
