@@ -26,8 +26,9 @@ fn main() {
     let steps = distance * 100_000.0 / step_len;
     let steps = steps.floor();
 
-    println!("distance: {} kilometers", distance);
-    println!("steps:    {} ", steps);
+    println!("distance:    {:.2} kilometers", distance);
+    println!("step length: {:.2} centimeters", step_len);
+    println!("steps:       {} ", steps);
 }
 
 fn read_args() -> (Height, Distance) {
